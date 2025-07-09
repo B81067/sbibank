@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header ul {
+    display: flex;
+    list-style: none;
+   
+    background-color: #280071;
+    padding: 30px;
+    margin-left: 100px;
+    padding-bottom: 0px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: x-small;
+    color: aliceblue;
+}
+header ul li{
+    padding: 20px;
+}
+#banner ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+font-size: smaller;
+margin-left: 100px;
+}
+#banner ul li{
+    padding: 0px 10px;
+}
+#banner ul li a{
+    text-decoration: none
+}
+#banner button{
+    padding: 5px 30px;
+}
+nav {
+    background-color: #12A8E0;
+    padding: 20px;
+    
+}
+nav ul li i{
+    padding:0px 10px;
+}
+nav ul li{
+    border-right: 2px solid white;
+}
+nav ul{
+   display: flex;
+   list-style:none;
+   justify-content:space-around;
+}
+nav ul li > a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav .dropdown-menu{
+    position: absolute;
+    background-color: darkgrey;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px black;
+    display: none;
+}
+nav .dropdown-menu a{
+    display: block;
+    padding: 10px 0;
+}
+nav .dropdown:hover .dropdown-menu{
+    display: block;
+}
+main div.col{
+    width: 33.33%;
+}
+main div.col img{
+    width: 70%;
+}
+main div.card-body{
+text-align: center;
+background-color: #F3F7FA;
+}
+div .card{
+    border: none;
+    text-align: center;
+}
+div.card-header{
+    background-color: #FFD100;
+    padding: 5px 5px;
+    margin-right: 100px;
+    border: none;
+}
+div .card-body i{
+    padding: 0px 10px;
+}
+footer{
+    background-color: #280071;
+    padding: 10px 0px;
+}
+footer h6{
+    color: #FFD100;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.abc{
+    font-size: small;
+}
+.def{
+    font-size: small;
+    margin-left: auto;
+}
+#aaa{
+    display: flex;
+    background-color: #C7E9FA;
+    padding: 7px;
+}
